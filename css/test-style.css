@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+h1{font-size: 30px;
+    color: #e99aec;
+    }
+h2{
+    color:aquamarine;
+    font-size: 20px;
+}
+.big{
+    font-size: 60px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big.uppercase{
+    color: blue;
+}
+span{
+    color: blueviolet;
+}
