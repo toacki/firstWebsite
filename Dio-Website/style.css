@@ -1,0 +1,30 @@
+div{
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+    background-color: lightpink;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5%;
+    background-color: lightpink;
+    color: #444;
+}
+
+.box {
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: medium;
+}
+
+.leftside {
+    display: grid;
+    grid-column: 1;
+    grid-row: span;
+}
